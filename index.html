@@ -16,17 +16,20 @@
             <input type="text" id="searchInput" placeholder="Enter an ingredient...">
             <button id="searchButton">Search</button>
         </div>
+        <div class="filter">
+            <button class="category-button" data-category="Vegetarian">Vegetarian</button>
+            <button class="category-button" data-category="Dessert">Dessert</button>
+        </div>
     </header>
-
-    <div id="mealList" class="meal-list"></div>
+    <div id="recme" class="meal-list">
+    </div>
+    <div id="mealList" class="meal-list">
+    </div>
     <div class="modal-container">
         <button id="recipeCloseBtn" class="close-button">&times;</button>
         <div class="meal-details-content">
-            <!-- Content from js will be inserted here -->
         </div>
     </div>
-
-
 
     <script src="script.js"></script>
 </body>
